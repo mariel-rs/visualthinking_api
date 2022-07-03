@@ -1,0 +1,46 @@
+[
+  {
+  "id": "6264d5d85cf81c496446b67f",
+  "name": "Lucinda",
+  "email": "Sexton@visualpartnership.xyz",
+  "credits": 677,
+  "enrollments": [
+    "Visual Thinking Avanzado"
+  ],
+  "previousCourses": 6,
+  "haveCertification": true
+},
+{
+  "id": "6264d5d8cda17de0d2e9f236",
+  "name": "Fuentes",
+  "email": "Sharlene@visualpartnership.xyz",
+  "credits": 210,
+  "enrollments": [
+    "Visual Thinking Avanzado"
+  ],
+  "previousCourses": 10,
+  "haveCertification": true
+},
+{
+  "id": "6264d5d8878a117a9c57c5c4",
+  "name": "Claudia",
+  "email": "Howell@visualpartnership.xyz",
+  "credits": 227,
+  "enrollments": [
+    "Visual Thinking Avanzado"
+  ],
+  "previousCourses": 5,
+  "haveCertification": true
+},
+{
+  "id": "6264d5d8dd1a0be4e249c662",
+  "name": "Phillips",
+  "email": "Camacho@visualpartnership.xyz",
+  "credits": 973,
+  "enrollments": [
+    "Visual Thinking Intermedio"
+  ],
+  "previousCourses": 8,
+  "haveCertification": false
+}
+]

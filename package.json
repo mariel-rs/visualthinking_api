@@ -1,0 +1,33 @@
+{
+  "name": "visualthinking_api",
+  "version": "1.0.0",
+  "description": "Visual thinking API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "server": "node ./lib/server.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariel-rs/visualthinking_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariel-rs/visualthinking_api/issues"
+  },
+  "homepage": "https://github.com/mariel-rs/visualthinking_api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "jest": "^26.0.0"
+  }
+}
