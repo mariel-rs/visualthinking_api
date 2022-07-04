@@ -62,16 +62,16 @@ as well as the dependencies between classes.
 classDiagram
     direction LR
     class Reader
-    Reader : readJsonFile(path)
+    Reader : readJsonFile(path)$
 
     class StudentService
-    StudentService : getCertifiedStudentEmail(students)
-    StudentService : getStudents500Credits(students)
+    StudentService : getCertifiedStudentEmail(students)$
+    StudentService : getStudents500Credits(students)$
 
     class StudentController
-    StudentController : getStudents()
-    StudentController : getCertifiedStudentEmails()
-    StudentController : getStudents500()
+    StudentController : getStudents()$
+    StudentController : getCertifiedStudentEmails()$
+    StudentController : getStudents500()$
 
     Reader ..> StudentService
     StudentService ..> StudentController
