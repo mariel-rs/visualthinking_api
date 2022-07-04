@@ -46,8 +46,8 @@ solution.
 
 | Files | Responsabilities |
 |-------|------------------|
-| `Reader.js` | A utility which reads the student database (json file) |
-| `StudentService.js` | A service which implements the filter logic necessary for endpoint 2 and 3 |
+| `Reader.js` | A utility which reads the student database |
+| `StudentService.js` | A service which implements the filter logic necessary for endpoints |
 | `StudentController.js` | A controller layer which wraps services and utilities |
 | `server.js` | A web server and API with the required endpoints |
 
